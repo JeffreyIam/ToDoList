@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+
+    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/backbone/backbone.js"></script>
+    <script src="ToDoEntryView.js"></script>
+    <script src="ToDoModel.js"></script>
+    <script src="ToDoCollection.js"></script>
+    <script src="ToDoView.js"></script>
+
+    <script>
+    var todo = new ToDoCollection();
+    var toDoView = new ToDoView({collection: todo});
+    $('body').append(toDoView.render());
+
+
+    </script>
+
+  </body>
+</html>

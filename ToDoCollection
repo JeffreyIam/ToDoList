@@ -1,0 +1,12 @@
+ToDoCollection
+ToDoView
+
+
+ToDoView: ToDoCollection: [ToDoModel]
+<input>
+<ul>
+  ToDoEntryView: ToDoModel
+  <li>"brush teeth"</li>
+  <li>"drive"</li>
+  ...
+</ul>
